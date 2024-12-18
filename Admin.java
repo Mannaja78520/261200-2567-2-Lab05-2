@@ -24,11 +24,12 @@ public class Admin extends User{
         }
         else System.out.println("Name: " + super.name);
     }
-
+    
+    @Override
     public void displayHappyBirthday() {
         int age = LocalDate.now().compareTo(super.dob);
         if(isBirthday()) {
           System.out.println("Happy birthday " + super.name + "! You are " + age + "!");
         }
-      }
+    }
 }
