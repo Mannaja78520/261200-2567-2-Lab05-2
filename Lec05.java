@@ -5,9 +5,9 @@ public class Lec05 {
         john.displayHappyBirthday();
 
         Admin nicolas = new Admin("nicolas", 1964, 12, 18);
+        nicolas.displayInfo();
+        nicolas.displayInfo(true);
+        nicolas.displayInfo(false);
         nicolas.displayHappyBirthday();
-        // nicolas.displayInfo();
-        // nicolas.displayInfo(true);
-        // nicolas.displayInfo(false);
     }
 }
